@@ -1,0 +1,124 @@
+body {
+    font-family: Inter;
+    color: #2B283A;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    letter-spacing: 0.17em;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+a {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+section {
+    padding: 0px 40px;
+    margin: 60px 0px;
+    max-width: 900px;
+}
+
+div#root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+div.App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #FF7F5A;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header--logo{
+    height: 50px;
+}
+
+.header p{
+    color: #FFFFFF;
+}
+
+.season {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.season--left {
+    min-width: 125px;
+    min-height: 168px;
+}
+
+.season--left--image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.season--right {
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    align-self: center;
+}
+
+.season--right--top-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.season--right--top-information--pin {
+    width: 7px;
+    height: 10px;
+}
+
+.season--right--top-information--country {
+    margin-left: 4px;
+}
+
+.season--right--top-information--link {
+    margin-left: 12px;
+}
