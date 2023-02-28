@@ -79,6 +79,12 @@ div.App {
     color: #FFFFFF;
 }
 
+.season-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
 .season {
     display: flex;
     flex-direction: row;
@@ -86,8 +92,8 @@ div.App {
 }
 
 .season--left {
-    min-width: 125px;
-    min-height: 168px;
+    min-width: 50%;
+    height: auto;
 }
 
 .season--left--image {
@@ -100,7 +106,7 @@ div.App {
 .season--right {
     display: flex;
     flex-direction: column;
-    min-width: 60%;
+    min-width: 50%;
     align-self: center;
 }
 
