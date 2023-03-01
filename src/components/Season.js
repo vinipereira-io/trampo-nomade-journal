@@ -10,11 +10,11 @@ function Season(props) {
                 <div className='season--right--top-information'>
                     <img src={IconPin} className='season--right--top-information--pin'></img>
                     <h2 className='season--right--top-information--country'>{props.item.country.toUpperCase()}</h2>
-                    <a href={props.item.mapURL} className='season--right--top-information--link'>View on Google Maps</a>
+                    <a href={props.item.mapURL} className='season--right--top-information--link'>Google Maps</a>
                 </div>
-                <h1>{props.item.title}</h1>
-                <h3>{props.item.period}</h3>
-                <p>{props.item.description}</p>
+                <h1 className='season--rigth--title'>{props.item.title}</h1>
+                <h3 className='season--rigth--period'>{props.item.period}</h3>
+                <p className='season--rigth--description'>{props.item.description}</p>
             </div>
         </div>
     )
