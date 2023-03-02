@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b78a578b.css",
+    "main.js": "/static/js/main.e308bbcc.js",
+    "static/js/787.d2750495.chunk.js": "/static/js/787.d2750495.chunk.js",
+    "static/media/trampo-buenos-aires.jpg": "/static/media/trampo-buenos-aires.829352cb2c923687abb3.jpg",
+    "static/media/trampo-sydney.jpg": "/static/media/trampo-sydney.c181286d8d3df17c4f61.jpg",
+    "static/media/trampo-nordeste.jpg": "/static/media/trampo-nordeste.4d784be9a7266c3741a8.jpg",
+    "static/media/trampo-logo.png": "/static/media/trampo-logo.9f6956c0c8b6bdcc8a17.png",
+    "index.html": "/index.html",
+    "main.b78a578b.css.map": "/static/css/main.b78a578b.css.map",
+    "main.e308bbcc.js.map": "/static/js/main.e308bbcc.js.map",
+    "787.d2750495.chunk.js.map": "/static/js/787.d2750495.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b78a578b.css",
+    "static/js/main.e308bbcc.js"
+  ]
+}
