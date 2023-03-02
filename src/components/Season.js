@@ -4,6 +4,7 @@ function Season(props) {
     return (
         <div className='season'>
             <div className="season--left">
+                <div className='season--left--badge'>{props.item.badge}</div>
                 <img src={props.item.image} className='season--left--image'></img>
             </div>
             <div className="season--right">
